@@ -1,4 +1,4 @@
 steps:
   - name: 'ubuntu'
-    entrypoint: 'bash'
-    args: ['-c', 'echo MOAR DONUT?']
+    entrypoint: 'python'
+    args: ['-c', 'print("HELLO WHIRLD")']
