@@ -2,6 +2,3 @@ steps:
   - name: 'python'
     entrypoint: 'python'
     args: ['-c', 'print("HELLO WHIRLD")']
-options:
-  pool:
-    name: 'projects/nkohl-test/locations/us-east4/workerPools/nkohl-pool'
